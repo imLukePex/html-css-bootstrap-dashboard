@@ -13,22 +13,28 @@
 /* Macro Areas Styles */
 #top-bar {
     height: 70px;
-    background-color: bisque;
     display: flex;
+
+    /* DEBUG */
+    
 }
 
 #wrapper-down {
     height: calc(100vh - 70px);
-    background-color: #f8f9fa;
     display: flex;
+
+    /* DEBUG */
+    background-color: #f8f9fa;
 }
 
 #sidebar {
     min-width: 130px;
     height: 100%;
-    background-color: rgb(0, 255, 17);
     display: flex;
     flex-direction: column;
+
+    /* DEBUG */
+    background-color: rgb(0, 255, 17);
 }
 
 #main-content {
@@ -39,6 +45,7 @@
 
 /* Main Content Area Styles */
 #main-content .col-content {
+    /* DEBUG */
     background-color: #1b72e8;
     min-height: 130px;
 }
@@ -48,26 +55,74 @@
 }
 
 #main-content .container-fluid {
+    /* DEBUG */
     background-color: brown;
     height: 100vh;
 }
 
 #main-content .container-fluid .classes {
+    /* DEBUG */
     background-color: blueviolet;
     height: 500px;
 }
 
 #main-content .container-fluid .todo {
+    /* DEBUG */
     background-color: aquamarine;
     height: 200px;
 }
 
 #main-content .container-fluid .graphic {
+    /* DEBUG */
     background-color: black;
     height: 650px;
 }
 
 #main-content .container-fluid .faq {
+    /* DEBUG */
     background-color: white;
     height: 300px;
+}
+
+/* HEADER */
+.navbar {
+    width: 100%;
+}
+
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+    background-color: white;
+}
+
+.navbar-brand {
+    margin-right: 2rem;
+}
+
+.me-2 {
+    margin-right: 1.5rem !important;
+}
+
+.d-flex {
+    flex-grow: 1;
+}
+
+.form-control {
+    line-height: 2.5;
+    background-color: #e5e5e5;
+    border: none;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+#navbarScroll ul li i {
+    color: black;
+}
+
+#navbarScroll .dropdown .fa-bell {
+    color: #ff8f00;
+}
+
+.dropdown-toggle::after {
+    display: none;
 }

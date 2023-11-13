@@ -20,7 +20,10 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 </button>
                 <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
                 </form>
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
@@ -50,7 +53,47 @@
 
     <div id="wrapper-down">
         <div id="sidebar">
+            <nav>
+                <ul id="app-section">
+                    <li class="active">
+                        <a href="#"><i class="fa-solid fa-house"></i>Home</a>
+                    </li>
 
+                    <li>
+                        <a href="#"><i class="fa-solid fa-chart-simple"></i>Stats</a>
+                    </li>
+
+                    <li>
+                        <a href="#"><i class="fa-solid fa-signal"></i></i>Signals</a>
+                    </li>
+                </ul>
+                <!-- Sezione Navigazione xs -->
+                <ul id="app-section-xs">
+                    <li class="active">
+                        <a href="#"><i class="fa-solid fa-house"></i></a>
+                    </li>
+
+                    <li>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+
+                    <li>
+                        <a href="#"><i class="fa-solid fa-lines-leaning"></i></a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="settings-section">
+                <div class="install-box">
+                    <a href="#"><i class="fa-solid fa-gear"></i> Admin </a>
+                </div>
+            </div>
+            <!-- Sezione Profilo xs -->
+            <div class="settings-section-xs">
+                <div class="install-box">
+                    <a href="#"><i class="fa-solid fa-gear"></i></a>
+                </div>
+            </div>
         </div>
 
         <div id="main-content">

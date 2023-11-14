@@ -60,6 +60,7 @@
         <!-- INIZIO SIDEBAR -->
         <div id="sidebar">
             <nav>
+                <!-- Navbar Large -->
                 <ul id="app-section">
                     <li>
                         <a href="#"><i class="fa-solid fa-house"></i>Home</a>
@@ -73,7 +74,7 @@
                         <a href="#"><i class="fa-solid fa-signal"></i>Signals</a>
                     </li>
                 </ul>
-                <!-- Sezione Navigazione xs -->
+                <!-- Navbar Medium/Small -->
                 <ul id="app-section-xs">
                     <li>
                         <a href="#"><i class="fa-solid fa-house"></i></a>
@@ -88,13 +89,13 @@
                     </li>
                 </ul>
             </nav>
-            
+            <!-- Settings Large -->
             <div id="settings-section">
                 <div class="settings-box">
                     <a href="#"><i class="fa-solid fa-gear"></i> Admin </a>
                 </div>
             </div>
-            <!-- Sezione Settings xs -->
+            <!-- Settings Medium/Small -->
             <div id="settings-section-xs">
                 <div class="settings-box">
                     <a href="#"><i class="fa-solid fa-gear"></i></a>
@@ -105,6 +106,7 @@
 
         <!-- INIZIO MAIN CONTENT -->
         <div id="main-content">
+            <!-- Boolean Bar -->
             <div class="row">
                 <div class="col-12">
                     <div class="col-content"></div>
@@ -114,10 +116,139 @@
             <div class="container-fluid">
                 <div class="row vspace">
                     <div class="col-8">
-                        <div class="card classes"></div>
+                        <!-- Table Prossime Classi -->
+                        <div class="card classes">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="box-title">
+                                        <h2>Prossime Classi</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-container">
+                                <table class="table table-hover">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">Nome</th>
+                                        <th class="text-center" scope="col">Data Inizio</th>
+                                        <th scope="col">ROI</th>
+                                        <th scope="col">Stato</th>
+                                        <th scope="col">Azioni</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <th scope="row"><img class="avatar-table" src="img/class-avatar.jpg" alt="classe avatar">Classe 75</th>
+                                        <td class="text-center">15 Feb 2021</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td class="text-center">16 Feb 2021</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                        <td>@fat</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td class="text-center">17 Feb 2021</td>
+                                        <td>@twitter</td>
+                                        <td>@twitter</td>
+                                        <td>@twitter</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><img class="avatar-table" src="img/class-avatar.jpg" alt="classe avatar">Classe 75</th>
+                                        <td class="text-center">15 Feb 2021</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td class="text-center">16 Feb 2021</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                        <td>@fat</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td class="text-center">17 Feb 2021</td>
+                                        <td>@twitter</td>
+                                        <td>@twitter</td>
+                                        <td>@twitter</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td class="text-center">16 Feb 2021</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                        <td>@fat</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td class="text-center">17 Feb 2021</td>
+                                        <td>@twitter</td>
+                                        <td>@twitter</td>
+                                        <td>@twitter</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                         <div class="row vspace">
                             <div class="col-12">
-                                <div class="card faq"></div>
+                                <!-- FAQ -->
+                            <div class="card faq">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="box-title">
+                                            <h2>F.A.Q.</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="table-container">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                              Come aggiungere un nuovo studente?
+                                            </button>
+                                          </h2>
+                                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                              <strong>Clicca sul + in alto nella sezione blu.</strong>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                              Come posso accedere alle informazione del mio account?
+                                            </button>
+                                          </h2>
+                                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                              <strong>Clicca sull'icona della campanella.</strong>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                              Posso usare questa dashboard da mobile?
+                                            </button>
+                                          </h2>
+                                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                              <strong>Certo, basta solo scarica l'app.</strong>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -126,9 +257,61 @@
                         <div class="report">
                             <div class="row">
                                 <div class="col-12">
-                                    <div class="card todo"></div>
+                                    <!-- TODO -->
+                                    <div class="card todo">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="box-title">
+                                                    <h2>Todo</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="checkbox-container">
+                                            <div class="checkbox-box">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="checkbox-content">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                <label class="form-check-label" for="flexCheckDefault">
+                                                                Kickoff nuove classi
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="checkbox-content">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                <label class="form-check-label" for="flexCheckDefault">
+                                                                Lezione su Bootstrap 5 in classe #75
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="checkbox-content last">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                <label class="form-check-label" for="flexCheckDefault">
+                                                                Controllare username github studenti
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="row vspace">
                                         <div class="col-12">
+                                            <!-- Grafico -->
                                             <div class="card graphic"></div>
                                         </div>
                                     </div>

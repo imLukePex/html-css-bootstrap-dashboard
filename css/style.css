@@ -52,20 +52,20 @@
 
 #main-content .container-fluid {
     /* DEBUG */
-    background-color: brown;
+    background-color: #f7f7f7;
     height: 100vh;
 }
 
 #main-content .container-fluid .classes {
     /* DEBUG */
-    background-color: blueviolet;
-    height: 500px;
+    border: 1px solid rgb(178, 178, 178);
+    /* height: 500px; */
 }
 
 #main-content .container-fluid .todo {
     /* DEBUG */
-    background-color: aquamarine;
-    height: 200px;
+    /* background-color: aquamarine; */
+    /* height: 200px; */
 }
 
 #main-content .container-fluid .graphic {
@@ -76,8 +76,9 @@
 
 #main-content .container-fluid .faq {
     /* DEBUG */
-    background-color: white;
-    height: 300px;
+    /* background-color: brown;
+    height: 300px; */
+    border: 1px solid rgb(178, 178, 178);
 }
 
 /* HEADER */
@@ -194,3 +195,51 @@ ol, ul {
 }
 
 /* MAIN CONTENT */
+.box-title {
+    height: 60px;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(178, 178, 178);
+}
+
+.box-title h2 {
+    margin-left: 20px;
+}
+
+.avatar-table {
+    width: 20px;
+}
+
+.table-container {
+    padding: 0 15px;
+}
+
+th {
+    padding: 1rem 0 0 0;
+}
+
+
+.accordion-item {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.checkbox-container {
+    padding: 15px;
+    
+}
+
+.checkbox-box {
+    border: 1px solid rgb(178, 178, 178);
+    border-radius: 3px;
+}
+
+.checkbox-content {
+    padding: 6px;
+    border-bottom: 1px solid rgb(178, 178, 178);
+}
+
+.last {
+    border-bottom: none;
+}

@@ -1,0 +1,43 @@
+/* RESPONSIVE */
+
+@media all and (max-width: 768px) {
+    /* SIDEBAR MEDIA QUERT */
+    #sidebar {
+        min-width: 60px;
+        align-items: center;
+    }
+
+    #app-section {
+        display: none;
+    }
+
+    #app-section-xs {
+        display: block;
+        padding-top: 30px;
+    }
+
+    #app-section-xs .fa-house {
+        font-size: 17px;
+    }
+
+    #app-section-xs .fa-chart-simple {
+        font-size: 17px;
+    }
+
+    #app-section-xs .fa-signal {
+        font-size: 15px;
+    }
+
+    #settings-section {
+        display: none;
+    }
+
+    #settings-section-xs {
+        display: block;
+        padding-bottom: 30px;
+    }
+
+    #settings-section-xs .fa-gear {
+        font-size: 16px;
+    }
+}

@@ -1,4 +1,4 @@
-/* General Styles */
+/* GENERAL STYLES */
 * {
     padding: 0;
     margin: 0;
@@ -11,9 +11,7 @@
     font-size: 14px;
 }
 
-
-
-/* Macro Areas Styles */
+/* MACRO AREAS STYLES */
 #top-bar {
     height: 70px;
     display: flex;
@@ -39,49 +37,11 @@
     overflow-y: auto;
 }
 
-/* Main Content Area Styles */
-#main-content .col-content {
-    /* DEBUG */
-    background-color: #1b72e8;
-    min-height: 130px;
-}
-
 #main-content .vspace {
     padding-top: 22px;
 }
 
-#main-content .container-fluid {
-    /* DEBUG */
-    background-color: #f7f7f7;
-    height: 100vh;
-}
-
-#main-content .container-fluid .classes {
-    /* DEBUG */
-    border: 1px solid rgb(178, 178, 178);
-    /* height: 500px; */
-}
-
-#main-content .container-fluid .todo {
-    /* DEBUG */
-    /* background-color: aquamarine; */
-    /* height: 200px; */
-}
-
-#main-content .container-fluid .graphic {
-    /* DEBUG */
-    background-color: black;
-    height: 650px;
-}
-
-#main-content .container-fluid .faq {
-    /* DEBUG */
-    /* background-color: brown;
-    height: 300px; */
-    border: 1px solid rgb(178, 178, 178);
-}
-
-/* HEADER */
+/* TOPBAR */
 .navbar {
     width: 100%;
 }
@@ -194,7 +154,12 @@ ol, ul {
     display: none;
 }
 
-/* MAIN CONTENT */
+/* GENERAL MAIN CONTENT STYLES */
+
+#main-content .container-fluid .classes, #main-content .container-fluid .faq, #main-content .container-fluid .todo, #main-content .container-fluid .active-members {
+    border: 1px solid rgb(178, 178, 178);
+}
+
 .box-title {
     height: 60px;
     background-color: #f7f7f7;
@@ -207,39 +172,79 @@ ol, ul {
     margin-left: 20px;
 }
 
-.avatar-table {
-    width: 20px;
+/* Container Fluid Styles */
+#main-content .container-fluid {
+    /* DEBUG */
+    background-color: #f7f7f7;
 }
 
+/* Boolean Bar Styles */
+#main-content .col-content {
+    /* DEBUG */
+    background-color: #1b72e8;
+    min-height: 130px;
+}
+
+/* Table Prossime Classi Styles */
 .table-container {
     padding: 0 15px;
+}
+
+.avatar-table {
+    width: 20px;
 }
 
 th {
     padding: 1rem 0 0 0;
 }
 
-
+/* Sezione FAQ Styles */
 .accordion-item {
     border: none;
     border-bottom: 1px solid rgba(0,0,0,.125);
 }
 
+/* Sezione Todo Styles */
 .checkbox-container {
     padding: 15px;
-    
 }
 
-.checkbox-box {
+.internal-box {
     border: 1px solid rgb(178, 178, 178);
     border-radius: 3px;
 }
 
 .checkbox-content {
-    padding: 6px;
+    padding: 6px 15px;
     border-bottom: 1px solid rgb(178, 178, 178);
 }
 
 .last {
     border-bottom: none;
+}
+
+/* Sezione Active Members Styles */
+.active-members-container {
+    padding: 15px;
+}
+
+.stats-graphic {
+    width: 100%;
+}
+
+.text-active-members {
+    margin-top: 15px;
+}
+
+.title-active-members, .month-box {
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(178, 178, 178);
+}
+
+.subtitle {
+    margin-bottom: 10px;
+}
+
+.more {
+    padding: 12px 15px;
 }

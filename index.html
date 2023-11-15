@@ -38,15 +38,15 @@
                         <li class="nav-item">
                             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="fa-solid fa-ellipsis-vertical"></i></a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-bell"></i></a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                <li><a class="dropdown-item" href="#">Profilo</a></li>
-                                <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                        <div class="btn-group">
+                            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false"><i class="fa-solid fa-bell"></i></button>
+                            <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-lg-end">
+                              <li><a class="dropdown-item" href="#">Profilo</a></li>
+                              <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Logout</a></li>
                             </ul>
-                        </li>
+                        </div>
                     </ul>
                 </div>
             </div>
@@ -109,7 +109,122 @@
             <!-- Boolean Bar -->
             <div class="row">
                 <div class="col-12">
-                    <div class="col-content"></div>
+                    <div class="col-content">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="upper-bar-box">
+                                    <div class="up-content">
+                                        <h1>Boolean</h1>
+                                        <div class="current-label">Piano blaze</div>
+                                    </div>
+                                    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                                        <ol class="breadcrumb">
+                                          <li class="breadcrumb-item"><a href="#">3 app</a></li>
+                                          <li class="breadcrumb-item" aria-current="page">Boolean mobile app</li>
+                                          <li class="breadcrumb-item" aria-current="page">Boolean web app</li>
+                                          <li class="breadcrumb-item" aria-current="page">Boolean blog app</li>
+                                        </ol>
+                                      </nav>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="center-box-upper-bar">
+                                    <div class="center-bar-container">
+                                        <div class="up-content">
+                                            <div class="upper-bar-title">Studenti online negli ultimi 30 minuti</div>
+                                        </div>
+    
+                                        <div class="number-student">125</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="upper-bar-box">
+                                    <div class="up-content">
+                                        <div class="upper-bar-title">Nuovo Studente</div>
+                                        <div class="offcanvas-container">
+                                            <div class="right-box-upper-bar">
+                                                <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+                                            </div>
+    
+                                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                                <div class="offcanvas-header">
+                                                    <h5 id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                                </div>
+                                                <div class="offcanvas-body">
+                                                    <form class="row g-3">
+                                                        <div class="col-md-6">
+                                                            <label for="inputName4" class="form-label">Nome</label>
+                                                            <input type="name" class="form-control" id="inputName4">
+                                                          </div>
+                                                          <div class="col-md-6">
+                                                            <label for="inputSurname4" class="form-label">Cognome</label>
+                                                            <input type="password" class="form-control" id="inputSurname4">
+                                                          </div>
+                                                        <div class="col-md-6">
+                                                            <label for="inputEmail4" class="form-label">Email</label>
+                                                            <div class="input-group">
+                                                                <div class="input-group-text">@</div>
+                                                                <input type="email" class="form-control" id="autoSizingInputGroup">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <label for="inputPassword4" class="form-label">Password</label>
+                                                            <input type="password" class="form-control" id="inputPassword4">
+                                                        </div>
+                                                        <div class="col-12">
+                                                          <label for="inputAddress" class="form-label">Indirizzo</label>
+                                                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <label for="inputAddress2" class="form-label">Indirizzo 2</label>
+                                                            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <label for="inputCity" class="form-label">Città</label>
+                                                            <input type="text" class="form-control" id="inputCity">
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <label for="inputState" class="form-label">Stato</label>
+                                                            <select id="inputState" class="form-select">
+                                                                <option selected>Scegli...</option>
+                                                                <option>Italia</option>
+                                                                <option>Germania</option>
+                                                                <option>Spagna</option>
+                                                                <option>Francia</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col-md-2">
+                                                            <label for="inputZip" class="form-label">CAP</label>
+                                                            <input type="text" class="form-control" id="inputZip">
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <label for="inputFoto" class="form-label">Foto</label>
+                                                            <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                                        </div>
+                                                    
+                                                        <div class="col-12">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                                <label class="form-check-label" for="gridCheck">
+                                                              Seleziona per proseguire
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <button type="submit" class="btn btn-primary">Sign in</button>
+                                                            <button type="button" class="btn btn-warning">Svuota</button>
+                                                        </div>
+                                                      </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 

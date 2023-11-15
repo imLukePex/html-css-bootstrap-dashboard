@@ -89,19 +89,20 @@ ol, ul {
     padding: 0;
 }
 
-#navbarScroll ul li i {
+#navbarScroll ul li i, .btn-group button i {
     color: black;
     font-size: 1.2rem;
     padding: 0 5px;
 }
 
-#navbarScroll .dropdown .fa-bell {
+.btn-group .fa-bell {
     color: #ff8f00;
 }
 
 .dropdown-toggle::after {
     display: none;
 }
+
 
 /* SIDEBAR */
 #sidebar nav {
@@ -174,15 +175,70 @@ ol, ul {
 
 /* Container Fluid Styles */
 #main-content .container-fluid {
-    /* DEBUG */
     background-color: #f7f7f7;
 }
 
 /* Boolean Bar Styles */
 #main-content .col-content {
-    /* DEBUG */
     background-color: #1b72e8;
-    min-height: 130px;
+}
+
+.col-content .upper-bar-box, .center-box-upper-bar, .upper-bar-box a {
+    color: #ffff;
+}
+
+.col-content .upper-bar-box {
+    padding: 15px 10px;
+}
+
+.upper-bar-box .up-content {
+    display: flex;
+    align-items: center;
+}
+
+.center-box-upper-bar {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.center-bar-container .up-content {
+    margin-bottom: 5px;
+}
+
+.up-content .upper-bar-title {
+    font-size: 15px;
+}
+
+.number-student {
+    font-size: 30px;
+}
+
+.up-content .current-label {
+    margin-left: 10px;
+}
+
+.offcanvas-container {
+    margin-left: 15px;
+}
+
+.right-box-upper-bar .btn {
+    font-size: 1.7rem;
+    padding: 0 0.75rem;
+}
+
+.offcanvas-end {
+    width: 800px;
+}
+
+.offcanvas {
+    color: black;
+}
+
+.form-control, .form-select {
+    background-color: #ffff;
+    border: 2px solid #e5e5e5;
+    line-height: 2;
 }
 
 /* Table Prossime Classi Styles */

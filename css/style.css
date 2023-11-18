@@ -228,7 +228,7 @@ ol, ul {
 }
 
 .offcanvas-end {
-    width: 800px;
+    width: 600px;
 }
 
 .offcanvas {
@@ -246,12 +246,58 @@ ol, ul {
     padding: 0 15px;
 }
 
-.avatar-table {
-    width: 20px;
+.table > :not(caption) > * > * {
+    padding: .8rem .5rem;
 }
 
-th {
-    padding: 1rem 0 0 0;
+.table {
+    font-size: 12px;
+}
+
+.avatar-table {
+    width: 25px;
+}
+
+.classes-number {
+    display: flex;
+    align-items: center;
+}
+
+.classes-number img {
+    margin-right: 10px;
+}
+
+.tag {
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 8px;
+    color: white;
+}
+
+.done {
+    background-color: darkgreen;
+}
+
+.process {
+    background-color: #ffc107;
+}
+
+.failed {
+    background-color: #dc3545;
+}
+
+.btn-light {
+    color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn {
+    padding: 0;
+    font-size: 12px;
+}
+
+.btn .fa-pencil, .btn .fa-trash {
+    padding: 2px 5px;
 }
 
 /* Sezione FAQ Styles */
